@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">kandukuri naveen kumar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+           
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">kandukuri naveen kumar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+ 
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="naveen kumar profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hi! I'm</p>
+        <h1 class="title">Kandukuri naveen kumar</h1>
+        <p class="section__text__p2">Student</p>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/facebook.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://www.facebook.com/kandukuri.naveenkumar.5'"
+          />
+          <img
+            src="./assets/linked-in.png"
+            alt="My linked in profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kandukuri-naveen-kumar-780a97243/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/naveenkumar631'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p class="p2">st peters engineering college <br />- B.Tech</p>
+              <br>
+              <p class="p2">Narayana jr college <br />- Intermediate</p>
+              <br>
+              <p class="p2">sri siva sai public school <br />- ssc</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/graduation.png"
+                alt="Awards icon"
+                class="icon"
+              />
+              <h3>Certifiaction</h3>
+              <p class="p2">Certified in Cloud Computing Foundations <br />– Google Cloud<br /></p><br>
+              <p class="p2">Certified in Internet of Things (IoT)  <br />– NPTEL<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Growing up, I have always been passionate about technology and innovation. As an enthusiastic engineering student at St. Peter's Engineering College, I am committed to building a strong foundation in technology and software development. With a creative flair for design and a problem-solving mindset, I constantly explore innovative solutions to real-world challenges, striving for continuous learning and growth both personally and professionally. <br /> <br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+  </section>
+  <section id="projects">
+    <h1 class="title">Projects</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div><br><br>
+          <h2 class="skills-sub-title project-title"> Student-Teacher Booking Appointment System</h2><br>
+          <br>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/naveenkumar631/student-teach-book'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div><br><br>
+          <h2 class="skills-sub-title
+           project-title">Dynamic Landing Page </h2><br><br>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/naveenkumar631/Simple-Landing-Page-'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/digital-profile.png"
+              alt="Digital-profile"
+              class="project-img"
+            />
+          </div><br><br>
+          <h2 class="skills-sub-title
+           project-title">Student Portfolio</h2><br><br>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/naveenkumar631/digital-profile'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">Applications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Word</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Powerpoint</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Javascript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="skills-sub-title project-title"> Student-Teacher Booking Appointment System</h2><br>
+      <br>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    
+
+    
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:kandukuri631@gmail.com">kandukuri631@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/facebook.png"
+            alt="Facebook icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.facebook.com/kandukuri.naveenkumar.5">Facebook</a></p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+       
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
